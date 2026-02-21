@@ -62,6 +62,9 @@
 
 ;;; Code:
 
+(declare-function key-chord-register-keys "key-chord" (key1 key2))
+(declare-function key-chord-unregister-keys "key-chord" (key1 key2))
+
 ;;;###autoload
 (defun key-seq-define-global (keys command)
   "Define a key sequence of the two keys in KEYS starting a COMMAND.
