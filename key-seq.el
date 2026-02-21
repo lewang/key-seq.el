@@ -1,4 +1,4 @@
-;;; key-seq.el --- map pairs of sequentially pressed keys to commands
+;;; key-seq.el --- map pairs of sequentially pressed keys to commands  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2015 Vyacheslav Levit
 ;; Copyright (C) 2003,2005,2008,2012 David Andersson
